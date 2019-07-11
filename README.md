@@ -1,10 +1,13 @@
 # brain-tumor-mri-dataset
-Utilities to download and load an MRI brain tumor dataset with Python, providing 2D slices, tumor masks and tumor labels.
+Utilities to:
+- download (using a few command lines) an MRI brain tumor dataset providing 2D slices, tumor masks and tumor classes.
+- load the dataset in Python.
 
-It can be used for different tasks like image classification, object detection or semantic / instance segmentation. 
+The dataset can be used for different tasks like image classification, object detection or semantic / instance segmentation. 
 
-The original dataset was published [here](https://figshare.com/articles/brain_tumor_dataset/1512427) in Matlab v7.3 format.
-It contains 3064 T1-weighted contrast-inhanced images with three kinds of brain tumor.
+It was originally published [here](https://figshare.com/articles/brain_tumor_dataset/1512427) in Matlab v7.3 format.
+
+3064 T1-weighted contrast-inhanced images with three kinds of brain tumor are provided.
 
 ![dataset-overview](https://github.com/guillaumefrd/brain-tumor-mri-dataset/blob/master/images/slices_example.png?raw=true)
 

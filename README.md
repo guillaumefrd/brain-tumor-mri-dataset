@@ -55,6 +55,13 @@ python matlab_to_numpy.py ~/brain_tumor_dataset
 ```
 Optional: set the image dimension with `--image-dimension` or `-d` (default is 512).
 
+### Visualization of the dataset
+
+[Notebook](https://github.com/guillaumefrd/brain-tumor-mri-dataset/blob/master/data_visualization.ipynb) to visualize:
+- the repartition of classes
+- the 2D slices with the tumor mask
+- the tumors
+
 ### References
 
 ```

@@ -38,6 +38,23 @@ unzip data.zip -d data && rm data.zip
 ls data | wc -l
 ```
 
+### Load the dataset with Python
+
+##### Requirements
+```
+- numpy
+- cv2
+- hdf5storage
+```
+
+##### Usage
+Execute the script [matlab_to_numpy.py](https://github.com/guillaumefrd/brain-tumor-mri-dataset/blob/master/matlab_to_numpy.py) with the dataset path as parameter. 
+
+```bash
+python matlab_to_numpy.py ~/brain_tumor_dataset
+```
+Optional: set the image dimension with `--image-dimension` or `-d` (default is 512).
+
 ### References
 
 ```

@@ -49,7 +49,7 @@ for i, file in enumerate(files, start=1):
     if i % 10 == 0:
         # print the percentage of images loaded
         sys.stdout.write('\r[{}/{}] images loaded: {:.1f} %'
-                         .format(i, len(files), i / len(files) * 100))
+                         .format(i, len(files), i / float(len(files)) * 100))
         sys.stdout.flush()
 
     # load matlab file with hdf5storage as scipy.io.loadmat does not support v7.3 files
@@ -66,7 +66,7 @@ for i, file in enumerate(files, start=1):
     masks.append(mask.astype(bool))
 
 sys.stdout.write('\r[{}/{}] images loaded: {:.1f} %'
-                 .format(i, len(files), i / len(files) * 100))
+                 .format(i, len(files), i / float(len(files)) * 100))
 sys.stdout.flush()
 
 labels = np.array(labels)

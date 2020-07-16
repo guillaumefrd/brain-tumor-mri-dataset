@@ -1,4 +1,4 @@
-# brain-tumor-mri-dataset
+### Brain Tumor Mri Dataset
 Utilities to:
 - download (using a few command lines) an MRI brain tumor dataset providing 2D slices, tumor masks and tumor classes.
 - load the dataset in Python.
